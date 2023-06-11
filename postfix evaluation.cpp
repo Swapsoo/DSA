@@ -70,3 +70,10 @@ int isoperand(char ch)
 	else 
 	return 0;
 }
+int isoperator(char ch)
+{
+if(ch=='+'||ch=='-'||ch=='*'||ch=='/'||ch=='$')
+return 1;
+else
+return 0;
+}
